@@ -2,6 +2,8 @@ import React from "react"
 
 import { Row, Col } from 'react-bootstrap';
 
+import 'bootstrap';
+
 const IndexPage: React.FC = () => (
   <div>
     <Row className='justify-content-md-center'>
