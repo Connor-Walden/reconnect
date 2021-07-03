@@ -1,20 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { Link } from "gatsby"
 
-import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage: React.FC = () => (
-  <Layout>
+  <>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <p>
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
+    <h1>Welcome to reconnect</h1>
+    {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
+  </>
 )
 
 export default IndexPage
