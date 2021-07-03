@@ -1,10 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+
+import { Row, Col } from 'react-bootstrap';
 
 const IndexPage: React.FC = () => (
   <div>
-    <h1>Welcome to reconnect</h1>
-    <Link to="/test/">Go to "Using TypeScript"</Link>
+    <Row className='justify-content-md-center'>
+      <Col md='auto'>
+        <h1 className='shadow p-3 mb-5 bg-body rounded'>Reconnect</h1>
+      </Col>
+    </Row>
   </div>
 )
 
